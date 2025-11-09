@@ -312,10 +312,6 @@ ol {
   width: clamp(0px, 100%, 196px);
 }
 
-
-
-
-
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
