@@ -319,7 +319,7 @@ ol {
 }
 
 .content__video-card-description {
-  width: clamp(0px, 100%, 196px);
+  width: 190px;
   color: #fff;
   font-family: Fira Sans Condensed;
   font-weight: 400;
@@ -327,6 +327,8 @@ ol {
   font-style: Regular;
   line-height: 16.2px;
   text-decoration: none;
+  text-overflow: wrap;
+  overflow: hidden;
 }
 
 .visually-hidden {
